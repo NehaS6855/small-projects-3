@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 250px;
+}
+
+main{
+    background-color: lightcyan;
+    border: 10px solid navy;
+    /* height: 130vh; */
+}
+
+.container{
+    max-width: 900px;
+    /* background-color: aqua; */
+    margin: 0 auto;
+   
+}
+
+img[src="Images/Abdul kalam.jpg"]{
+    height: 300px;
+    border-radius: 45%;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 70px;
+}
+
+.headings{
+    /* background-color: brown; */
+    align-items: center;
+}
+
+.headings h1{
+    font-size: 3rem;
+    font-family:sans-serif;
+    font-weight: 400;
+}
+.headings h4{
+    text-align: end;
+}
+
+.middle{
+    margin-top: 50px;
+}
+
+.middle h1{
+    font-size: 4.5rem;
+    font-family:sans-serif;
+    font-weight: 400;
+}
+.middle p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.75rem;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.biographies{
+    margin-top: 50px;
+}
+
+.biographies ul{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.biographies li{
+    font-size: 0.8rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 20px;
+}
+
+.footer{
+    margin-top: 70px;
+    text-align: end;
+    margin-bottom: 30px;
+}

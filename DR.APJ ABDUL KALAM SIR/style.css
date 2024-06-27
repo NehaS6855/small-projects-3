@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 100px;
+}
+
+main{
+    background-color: lightcyan;
+    border: 10px solid navy;
+}
+
+.container{
+    max-width: 900px;
+    /* background-color: aqua; */
+    margin: 0 auto;
+}
+
+img[src="Images/APJ Abdul Kalam.jpg"]{
+    height: 300px;
+    border-radius: 45%;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 70px;
+}
+
+.headings{
+    /* background-color: brown; */
+    align-items: center;
+}
+
+.headings h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.headings h4{
+    text-align: end;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.middle{
+    margin-top: 50px;
+}
+
+.middle h1{
+    font-size: 4.5rem;
+    font-weight: 300;
+}
+.middle p{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 3px;
+    letter-spacing: 1.2px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.biographies{
+    margin-top: 50px;
+}
+
+.biographies ul{
+    margin-top: 25px;
+    margin-left: 40px;
+}
+.biographies ul li{
+    line-height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.footer{
+    margin-top: 70px;
+    text-align: end;
+    margin-bottom: 30px;
+}

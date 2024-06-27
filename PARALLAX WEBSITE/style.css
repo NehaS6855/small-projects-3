@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+    height: 100%;
+    font-family: "lato",sans-serif;
+}
+.first_container{
+    background-image: url(Images/pexels-kaique-rocha-775201.jpg);
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: 100%;
+}
+
+.heading_one{
+    position: absolute;
+    color: white;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.heading_one span{
+    background-color: #111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+.second_container{
+    background-color: white;
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.second_container p{
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.third_container{
+    background-image: url(Images/gif.gif);
+    min-height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: 100%;
+}
+
+.fourth_container{
+    background-color:rgb(2, 73, 53);
+    text-align: center;
+    padding: 50px 80px;
+    color: white;
+}
+
+.fourth_container p{
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.fifth_container{
+    background-image: url(Images/WhatsApp\ Image\ 2023-07-08\ at\ 2.31.00\ AM.jpeg);
+    min-height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: 100%;
+}
+
+.sixth_container{
+    background-color: white;
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.sixth_container p{
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 400;
+    margin-top: 20px;
+}

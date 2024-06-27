@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 1400px;
+  height: 890px;
+  top: 17385px;
+  left: -111px;
+  background: #2f1893;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+nav {
+  display: flex;
+  margin: 0 auto;
+  width: 1000px;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+nav .right ul {
+  width: 500px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .right ul li:last-child {
+  padding: 10px;
+  border-radius: 15px;
+  background-color: rgb(233, 48, 156);
+}
+
+.container1 {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 1000px;
+  gap: 100px;
+}
+
+.section_left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 430px;
+  color: white;
+}
+
+.section_left h1 {
+  font-size: 3.8rem;
+}
+
+.section_left p {
+  line-height: 1.5rem;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.btn {
+  padding: 8px;
+  background-color: rgb(238, 185, 86);
+  align-self: flex-start;
+  border: none;
+  border-radius: 2rem;
+  background-color: rgb(233, 48, 156);
+}
+
+.section_right {
+  width: 470px;
+  background-color: white;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 5px;
+}
+.section_right h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  font-size: 1rem;
+}
+
+form input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 15px;
+}
+
+form button {
+  width: 300px;
+  padding: 10px;
+  border-radius: 15px;
+  color: white;
+  border: none;
+}
+
+.sign {
+  background-color: #2f1893;
+}
+
+.login {
+  background-color: rgb(18, 158, 213);
+}
+form span {
+  color: rgb(20, 150, 135);
+}

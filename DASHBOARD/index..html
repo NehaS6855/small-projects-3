@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cdddd9740b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!--left sidebar start here-->
+        <div class="left_sidebar">
+            <aside>
+                <div class="top">
+                    <img src="IMAGES/logo (2).png" alt="">
+                    <h2>DEV <span>SCHOOL</span></h2>
+                    <div class="close" id="close_btn">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                </div>
+
+                <div class="bottom">
+                    <a href="">
+                        <i class="fa-solid fa-gauge"></i>
+                        <h3>Dashboard</h3>
+                    </a>
+                    <a href="">
+                        <i class="fa-solid fa-user"></i>
+                        <h3>Customers</h3>
+                    </a>
+                    <a href="">
+                        <i class="fa-solid fa-file-invoice-dollar"></i>
+                        <h3>Orders</h3>
+                    </a>
+                    <a href="">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <h3>Analytics</h3>
+                    </a>
+                    <a href="">
+                        <i class="fa-solid fa-comment"></i>
+                        <h3>Messages</h3>
+                        <span class="inbox">15</span>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-product-hunt"></i>
+                        <h3>Product</h3>
+                    </a>
+                    <a href="">
+                        <i class="fa-solid fa-circle-info"></i>
+                        <h3>Reports</h3>
+                    </a>
+                    <a href="">
+                        <i class="fa-solid fa-gear"></i>
+                        <h3>Setting</h3>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-product-hunt"></i>
+                        <h3>Add Product</h3>
+                    </a>
+                    <a href="">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                        <h3>Logout</h3>
+                    </a>
+                </div>
+            </aside>
+        </div>
+        <!--left sidebar ends here-->
+
+
+        <!--main container start here-->
+        <div class="main">
+            <h1>Dashboard</h1>
+            <input type="date" class="date">
+
+            <div class="inside">
+                <!--sales card start here-->
+                <div class="card sales">
+                    <i class="fa-solid fa-chart-pie"></i>
+
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Sales</h3>
+                            <h1>$34,312</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">last 24 Hours</small>
+                </div>
+                <!--sales card end here-->
+
+                <!--expenses card start here-->
+                <div class="card expense">
+                    <i class="fa-solid fa-chart-simple"></i>
+
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Expenses</h3>
+                            <h1>$4,22,132</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>41%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">last 24 Hours</small>
+                </div>
+                <!--expense card end here-->
+
+                <!--income card start here-->
+                <div class="card income ">
+                    <i class="fa-solid fa-money-bill-trend-up"></i>
+
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Income</h3>
+                            <h1>$29,000</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>61%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">last 24 Hours</small>
+                </div>
+                <!--income card end here-->
+            </div>
+
+            <div class="recent_order">
+                <h2>Recent Orders</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product Name</th>
+                            <th>Product Number</th>
+                            <th>Payment</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Foldable mini dron</td>
+                            <td>1323</td>
+                            <td>due</td>
+                            <td>Pending</td>
+                            <td>Details</td>
+                        </tr>
+                        <tr>
+                            <td>Foldable mini dron</td>
+                            <td>1323</td>
+                            <td>due</td>
+                            <td>Pending</td>
+                            <td>Details</td>
+                        </tr>
+                        <tr>
+                            <td>Foldable mini dron</td>
+                            <td>1323</td>
+                            <td>due</td>
+                            <td>Pending</td>
+                            <td>Details</td>
+                        </tr>
+                        <tr>
+                            <td>Foldable mini dron</td>
+                            <td>1323</td>
+                            <td>due</td>
+                            <td>Pending</td>
+                            <td>Details</td>
+                        </tr>
+                        <tr>
+                            <td>Foldable mini dron</td>
+                            <td>1323</td>
+                            <td>due</td>
+                            <td>Pending</td>
+                            <td>Details</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="#">Show all</a>
+            </div>
+        </div>
+        <!--main container ends here-->
+
+
+        <!--right sidebar start here-->
+        <div class="right_sidebar">
+            <div class="one">
+                <button id="menu_btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="theme_toggler">
+                    <i class="fa-solid fa-sun active"></i>
+                    <i class="fa-solid fa-moon"></i>
+                </div>
+
+                <div class="profile">
+                    <div class="info">
+                        <p>hey,<b>Aman</b></p>
+                        <small class="text-muted">admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="IMAGES/profile-1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="recent-updates">
+                <h2>Recent Updates</h2>
+                <div class="updates">
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="IMAGES/profile-2.jpg" alt="">
+                        </div>
+                        <div class="msg">
+                            <p><b>mike Tyson</b> received his order of Boxing Gloves</p>
+                        </div>
+                        <small class="text-muted">2 Minutes Ago</small>
+                    </div>
+
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="IMAGES/profile-3.jpg" alt="">
+                        </div>
+                        <div class="msg">
+                            <p><b>Mohammad Ali</b> received his order of Punching Bag</p>
+                        </div>
+                        <small class="text-muted">46 Minutes Ago</small>
+                    </div>
+
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="IMAGES/profile-4.jpg" alt="">
+                        </div>
+                        <div class="msg">
+                            <p><b>Sania Mirza</b> received his order of Tennis Racket</p>
+                        </div>
+                        <small class="text-muted">2 Hours Ago</small>
+                    </div>
+                </div>
+            </div>
+
+            <!--salaes analytics-->
+            <div class="sales-analytics">
+                <h2>Sales Analytics</h2>
+
+                <div class="item online">
+                    <div class="icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+
+                    <div class="right">
+                        <div class="info">
+                            <h3>Online Orders</h3>
+                            <small class="text-muted">Last 24 Hours</small>
+                        </div>
+                        <h5>39%</h5>
+                        <h3>3849</h3>
+                    </div>
+                </div>
+
+                <div class="item offline">
+                    <div class="icon">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </div>
+
+                    <div class="right">
+                        <div class="info">
+                            <h3>Offline Orders</h3>
+                            <small class="text-muted">Last 24 Hours</small>
+                        </div>
+                        <h5>-17%</h5>
+                        <h3>1100</h3>
+                    </div>
+                </div>
+
+                <div class="item new">
+                    <div class="icon">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+
+                    <div class="right">
+                        <div class="info">
+                            <h3>New Customers</h3>
+                            <small class="text-muted">Last 24 Hours</small>
+                        </div>
+                        <h5>+25%</h5>
+                        <h3>849</h3>
+                    </div>
+                </div>
+
+                <div class="add-product">
+                    <div>
+                    <i class="fa-solid fa-plus"></i>
+                    <h3>Add Product</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--right sidebar ends here-->
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
